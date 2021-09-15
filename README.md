@@ -44,12 +44,6 @@ Knock should work on any ACSM file, but it has been specifically verified to wor
 
 The resulting EPUB file can be read with any EPUB reader.
 
-## Legality
-
-[It's Perfectly Legal to Tell People How to Remove DRM](https://gizmodo.com/its-perfectly-legal-to-tell-people-how-to-remove-drm-1670223538) (Gizmodo)
-
-**Do not use this software for piracy; this software is not intended for piracy.** This software exists to allow readers to *legally* purchase and then legally and *freely* read ebooks. I suspect that the significant prevalence of ebook piracy is caused in large part by the restrictions put on legally purchased ebooks. This software exists to *incentivize* the legal purchase of ebooks by enabling their unrestricted and legal consumption.
-
 ## The Name
 
 The name comes from the [D&D 5e spell](https://roll20.net/compendium/dnd5e/Knock#content) for freeing locked items:
