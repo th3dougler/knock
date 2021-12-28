@@ -2,14 +2,12 @@ import click, subprocess, sys
 
 # run a command and display output in a styled terminal
 # cleanser is called if the command returns a >0 exit code
-def run(command: [str], stdin: str = '', cleanser = lambda: None) -> int:
+def run(command: [str], cleanser = lambda: None) -> int:
 
     open_fake_terminal(' '.join(command))
-
     result = subprocess.run(
         command,
         stderr=subprocess.STDOUT,
-        input=stdin.encode(),
         check=False # don't throw Python error if returncode isn't 0
     )
 

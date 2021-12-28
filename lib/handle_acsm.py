@@ -26,9 +26,9 @@ def handle_acsm(acsm_path):
             [
                 'adept_activate',
                 '-u', email,
-                '-O', str(adobe_dir)
+                '-O', str(adobe_dir),
+                '-p', str(password)
             ],
-            stdin=password+'\n',
             cleanser=lambda:shutil.rmtree(str(adobe_dir))
         )
 
