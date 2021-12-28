@@ -29,7 +29,8 @@ def handle_acsm(acsm_path):
                 '-O', str(adobe_dir),
                 '-p', str(password)
             ],
-            cleanser=lambda:shutil.rmtree(str(adobe_dir))
+            cleanser=lambda:shutil.rmtree(str(adobe_dir)),
+            verbose=False
         )
 
     click.echo('Downloading the book from Adobe...')
